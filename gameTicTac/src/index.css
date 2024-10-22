@@ -86,5 +86,23 @@ body {
 }
 
 .game-info {
-  margin-left: 20px;
+  margin-left: 5px;
+  margin-top: 4em;
+}
+@media screen and (max-width: 768px) {
+  .judul {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 2em;
+    transform: translateX(4em);
+    -webkit-transform: translateX(4em);
+    -moz-transform: translateX(4em);
+    -ms-transform: translateX(4em);
+    -o-transform: translateX(4em);
+  }
+  .judul-game {
+    font-weight: bold;
+  }
 }
